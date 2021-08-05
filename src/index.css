@@ -1,13 +1,66 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.col .row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-debts {
+  color: #ee6e73;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+button .material-icons {
+  cursor: pointer;
+  color: #fff;
+}
+
+button .material-icons:hover {
+  opacity: initial;
+  transition: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-item-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.floating-button-margin {
+  margin-top: 0.625rem;
+  margin-right: 0.625rem;
+}
+
+.progress-margin {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .row-reverse-mobile {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+  }
+
+  .margin-debts {
+    margin-top: 2rem;
+  }
 }

@@ -1,0 +1,27 @@
+.card-panel-list {
+  display: flex;
+  align-items: center;
+}
+
+.icons-left {
+  margin-left: auto;
+}
+
+.icons-spacing {
+  margin-right: 0.625rem;
+}
+
+.material-icons {
+  cursor: pointer;
+  color: #7209b7;
+}
+
+.material-icons:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.font-name-user {
+  color: #686868;
+  font-weight: 600;
+}
